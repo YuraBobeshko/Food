@@ -1,0 +1,32 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 370px);
+    margin: 150px auto 0;
+
+    // & > div {
+    //     max-width: 380px;
+    // }
+
+    // & > div > img {
+    //     max-width: 380px;
+    // }
+
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    &__heading {
+        margin: 0;
+    }
+
+    &__text {
+        color: #b3b3b3;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

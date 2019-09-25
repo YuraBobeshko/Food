@@ -1,0 +1,49 @@
+
+.food > div:hover {
+    background: #000;
+
+    & > img {
+        opacity: 0.3;
+        transition: opacity 1s;
+    }
+
+    // &__photo__text {
+    //     left: 40%;
+    //     top: 40%;
+    //     z-index: 2;
+    // }
+  }
+
+  .food > div:not(:hover) {
+      & > img {
+        transition: 0.5s;
+    }
+  }
+
+.nav__button:hover {
+  background-color: rgba(5, 5, 5, 0.5);
+
+  & > p {
+    color: white;
+  }
+}
+
+.perfect__item-:hover, .perfect__item:hover {
+  overflow: hidden;
+
+  & > img {
+    transform: scale(1.4);
+    transition: 6s;
+  }
+}
+
+.grid > div:hover {
+  background-image: url('./photos/mid-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & > img {
+    opacity: 0;
+    transition: 1.2s;
+  }
+}

@@ -1,0 +1,40 @@
+.heading {
+    height: 40px;
+    color: #333333;
+    font-size: 40px;
+    font-weight: 900;
+
+    &__text {
+        text-align: center;
+        width: 546px;
+        font-size: 18px;
+        font-weight: 300;
+        height: 43px;
+        color: #b3b3b3;
+    }
+}
+
+.greeting {
+    text-align: center;
+    margin: 130px auto;
+    width: 546px;
+}
+
+.greeting > p {
+    text-align: center;
+    width: 546px;
+    font-size: 18px;
+    font-weight: 300;
+    height: 43px;
+    color: #b3b3b3;
+}
+
+.services {
+
+    &__items {
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(6, 100px);
+        grid-template-rows: 100px;
+    }
+}

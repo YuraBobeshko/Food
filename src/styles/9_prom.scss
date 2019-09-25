@@ -1,0 +1,59 @@
+.prom {
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(4, 183px);
+        grid-template: 83px;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item > img{
+        margin-top: 10px;
+    }
+
+    &__item > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__item > div > h3 {
+        color: #2e211d;
+        font-size: 50px;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    &__item > div > p {
+        color: #555555;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    &__item:nth-child(1) > img {
+        width: 70px;
+        height: 69px;
+    }
+
+    &__item:nth-child(2) > img {
+        width: 68px;
+        height: 60px;
+    }
+
+    &__item:nth-child(3) > img {
+        width: 55px;
+        height: 76px;
+    }
+
+    &__item:nth-child(4) > img {
+        width: 70px;
+        height: 52px;
+    }
+}
