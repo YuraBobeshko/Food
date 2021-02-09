@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-09T11:07:19.551Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qds5DdJCmz9XT3ESuKV2" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-09T11:14:08.647Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6x2MS1ZWOhGBZBInjpfX" version="14.3.0" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1038" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="20" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;strong&gt;Dish&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id: int&lt;br&gt;name: varchar(50)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;description: string&lt;br&gt;price: float&lt;br&gt;img: file&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;composition: string&lt;br&gt;rating: int&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
           <mxGeometry x="650" y="180" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="25" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;Restaurant&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id: int&lt;br&gt;name: varchar(50)&lt;br&gt;deliveryPrice: int&lt;br&gt;img: file&lt;br&gt;location: string&lt;br&gt;timeWork: string&lt;br&gt;rating: int&lt;br&gt;typeId: Int&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+        <mxCell id="25" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;Restaurant&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id: int&lt;br&gt;name: varchar(50)&lt;br&gt;deliveryPrice: int&lt;br&gt;img: file&lt;br&gt;location: string&lt;br&gt;rating: int&lt;br&gt;typeId: Int&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
           <mxGeometry x="40" y="21.64" width="160" height="188.36" as="geometry" />
         </mxCell>
         <mxCell id="w3Cy6MWqWuH2VB0ONg1R-117" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;&lt;u&gt;UserTypePayment&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;UserId&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;typePaymentId&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
@@ -23,7 +23,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w3Cy6MWqWuH2VB0ONg1R-120" value="" style="endArrow=classic;html=1;entryX=1.017;entryY=0.2;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" target="25">
+        <mxCell id="w3Cy6MWqWuH2VB0ONg1R-120" value="" style="endArrow=classic;html=1;entryX=1.017;entryY=0.2;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="w3Cy6MWqWuH2VB0ONg1R-165" target="25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420.00000000000006" y="119.15999999999997" as="sourcePoint" />
             <mxPoint x="192.08" y="-20.000000000000114" as="targetPoint" />
@@ -199,6 +199,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="240" as="sourcePoint" />
             <mxPoint x="410" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3Cy6MWqWuH2VB0ONg1R-169" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w3Cy6MWqWuH2VB0ONg1R-171">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417.28000000000003" y="543.8499999999999" as="sourcePoint" />
+            <mxPoint x="200" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3Cy6MWqWuH2VB0ONg1R-170" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;Location&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id: int&lt;br&gt;address&lt;span&gt;: varchar(50)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;timeWork: string&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="647.28" y="517.19" width="160" height="82.81" as="geometry" />
+        </mxCell>
+        <mxCell id="w3Cy6MWqWuH2VB0ONg1R-171" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;&lt;u&gt;RestaurantLocation&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;RestaurantId&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;LocationId&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="427.28" y="514.6899999999999" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w3Cy6MWqWuH2VB0ONg1R-172" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="w3Cy6MWqWuH2VB0ONg1R-171" target="w3Cy6MWqWuH2VB0ONg1R-170">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357.28" y="664.69" as="sourcePoint" />
+            <mxPoint x="407.28" y="614.69" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
