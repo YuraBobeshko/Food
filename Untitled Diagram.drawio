@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-10T11:54:14.089Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Pi0pKeZ5yLjB2RrolEaE" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-10T11:57:01.480Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="8rRxJRhQJ6wL5lNpn4l0" version="14.3.0" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
-    <mxGraphModel dx="2556" dy="2102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2309" dy="1969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -263,7 +263,10 @@
         <mxCell id="w3Cy6MWqWuH2VB0ONg1R-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w3Cy6MWqWuH2VB0ONg1R-201" target="w3Cy6MWqWuH2VB0ONg1R-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w3Cy6MWqWuH2VB0ONg1R-201" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;Order&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id: int&lt;br&gt;timeDelivery: string&lt;br&gt;createAt: date&lt;br&gt;typePayment: int&lt;br&gt;chatId: int&lt;br&gt;userId: int&lt;br&gt;restarauntId: int&lt;br&gt;location: int&lt;br&gt;status: string&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+        <mxCell id="w3Cy6MWqWuH2VB0ONg1R-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w3Cy6MWqWuH2VB0ONg1R-201" target="w3Cy6MWqWuH2VB0ONg1R-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w3Cy6MWqWuH2VB0ONg1R-201" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;Order&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id: int&lt;br&gt;timeDelivery: string&lt;br&gt;status: string&lt;br&gt;createAt: date&lt;br&gt;typePayment: int&lt;br&gt;chatId: int&lt;br&gt;userId: int&lt;br&gt;restarauntId: int&lt;br&gt;location: int&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
           <mxGeometry x="-420" y="230" width="160" height="188.36" as="geometry" />
         </mxCell>
         <mxCell id="w3Cy6MWqWuH2VB0ONg1R-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="w3Cy6MWqWuH2VB0ONg1R-204" target="w3Cy6MWqWuH2VB0ONg1R-201">
