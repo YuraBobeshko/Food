@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-11T07:46:32.596Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="jRI-7wKHYV76vokg_34j" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-11T07:58:56.224Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="cwFr-_qm3SZ8RhGTO1fo" version="14.3.0" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="2047" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -127,8 +127,8 @@
         <mxCell id="w3Cy6MWqWuH2VB0ONg1R-152" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;Discount&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id: int&lt;br&gt;price: float&lt;br&gt;dishId&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
           <mxGeometry x="333" y="230" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="w3Cy6MWqWuH2VB0ONg1R-153" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;User&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id: int&lt;br&gt;name: varchar(50)&lt;br&gt;avatar: string&lt;br&gt;phone&lt;br&gt;codeSms&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
-          <mxGeometry x="40" y="610" width="160" height="120" as="geometry" />
+        <mxCell id="w3Cy6MWqWuH2VB0ONg1R-153" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;b&gt;&lt;u&gt;User&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id: int&lt;br&gt;name: varchar(50)&lt;br&gt;avatar: string&lt;br&gt;passwordHash&lt;br&gt;phone&lt;br&gt;codeSms&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="40" y="610" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="w3Cy6MWqWuH2VB0ONg1R-155" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;&lt;u&gt;BookmarkRestaurant&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;userId&lt;br&gt;restaurantId&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
           <mxGeometry x="413" y="570" width="160" height="70" as="geometry" />
